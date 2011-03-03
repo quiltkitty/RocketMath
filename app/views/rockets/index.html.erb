@@ -1,0 +1,18 @@
+<div id="content">
+<% form_tag :action => "index" %>
+<table class="problems" style="width: 90%;"><tr>
+<% 40.times do |x| %>
+	<% if x % 10 == 0 %>
+		<% @up = @upfactors.sort_by{rand} %>
+		<% @down = @downfactors.sort_by{rand} %>
+		</tr><tr>
+	<% end %>
+	<td>
+	<div ALIGN="RIGHT"><%= @up.pop.to_s %></div>
+	<div ALIGN="RIGHT">X&nbsp;<%= @down.pop.to_s %></div>
+	<div ALIGN="RIGHT">_____</div>
+	<BR><BR>
+	</td>
+<% end %>
+</tr></table>
+</div>
