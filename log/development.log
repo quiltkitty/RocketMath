@@ -1591,3 +1591,205 @@ Processing RocketsController#index (for 127.0.0.1 at 2011-03-03 10:38:55) [GET]
 Rendering template within layouts/application
 Rendering rockets/index
 Completed in 3ms (View: 2 | 200 OK [http://localhost/rockets]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 14:00:26) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:00:48) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 81ms (View: 80 | 200 OK [http://localhost/rockets/]
+
+
+Processing RocketsController#images to png (for 127.0.0.1 at 2011-03-16 14:00:48) [GET]
+  Parameters: {"id"=>"rocket"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing RocketsController#images to png (for 127.0.0.1 at 2011-03-16 14:00:48) [GET]
+  Parameters: {"id"=>"rocket"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing RocketsController#images to png (for 127.0.0.1 at 2011-03-16 14:00:51) [GET]
+  Parameters: {"id"=>"rocket"}
+
+ActionController::UnknownAction (No action responded to images. Actions: index):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:01:27) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/rockets/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 14:01:27) [GET]
+
+ActionController::RoutingError (No route matches "/rockets/public/images/rocket.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 14:01:27) [GET]
+
+ActionController::RoutingError (No route matches "/rockets/public/images/rocket.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-16 14:01:30) [GET]
+
+ActionController::RoutingError (No route matches "/rockets/public/images/rocket.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:01:40) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 6ms (View: 5 | 200 OK [http://localhost/rockets/]
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:01:55) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/rockets/]
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:02:16) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/rockets/]
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:02:21) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/rockets/]
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:02:26) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/rockets/]
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:02:30) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/rockets/]
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:02:34) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/rockets/]
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:02:38) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/rockets/]
+
+
+Processing RocketsController#index (for 127.0.0.1 at 2011-03-16 14:02:42) [GET]
+Rendering template within layouts/application
+Rendering rockets/index
+Completed in 3ms (View: 2 | 200 OK [http://localhost/rockets/]
